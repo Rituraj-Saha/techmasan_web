@@ -1,5 +1,20 @@
+:root {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  --buttonBack: #f17070;
+  /* background: rgb(248, 243, 224); */
+  /* background: linear-gradient(
+    257deg,
+    rgba(248, 243, 224, 0.353) 7%,
+    rgba(239, 238, 214, 0.756827731092437) 52%,
+    rgba(249, 250, 209, 0.318) 87%
+  ); */
+}
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
