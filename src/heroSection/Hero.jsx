@@ -23,12 +23,14 @@ const Hero = () => {
           gap: "40px",
         }}
       >
-        <span style={{ border: "1px solid black" }}>
+        <span
+          style={{
+            textAlign: "center",
+          }}
+        >
           {heroSection.heroSectionMsg.brandText}
         </span>
-        <span style={{ border: "1px solid black" }}>
-          {heroSection.heroSectionMsg.title}
-        </span>
+        <span>{heroSection.heroSectionMsg.title}</span>
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed once, initially
@@ -42,15 +44,16 @@ const Hero = () => {
             1000,
           ]}
           speed={50}
-          style={{ fontSize: "2em" }}
+          style={{
+            fontSize: "2em",
+            display: "block",
+            border: "1px solid black",
+          }}
           repeat={Infinity}
         />
-        <span style={{ border: "1px solid black" }}>
-          {heroSection.heroSectionMsg.subTitle}
-        </span>
+        <span>{heroSection.heroSectionMsg.subTitle}</span>
         <span
           style={{
-            border: "1px solid black",
             width: "30%",
             marginInline: "auto",
             textAlign: "center",
