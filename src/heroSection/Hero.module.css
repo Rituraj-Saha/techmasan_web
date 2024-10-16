@@ -10,7 +10,6 @@
   /*  styling */
   display: inline-block;
   text-transform: uppercase;
-  text-decoration: none;
   letter-spacing: 5px;
   color: #fafafa;
   border: 3px solid #fafafa;
@@ -25,7 +24,14 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  background: rgba(238, 70, 9, 0.5);
+  /* background: rgba(238, 70, 9, 0.5); */
+  background: rgb(228, 26, 26);
+  background: linear-gradient(
+    75deg,
+    rgba(228, 26, 26, 1) 8%,
+    rgba(255, 108, 10, 1) 46%,
+    rgba(221, 50, 6, 1) 87%
+  );
   @include fade-transition(background);
 
   &:hover {
