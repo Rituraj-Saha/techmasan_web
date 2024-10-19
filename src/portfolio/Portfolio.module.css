@@ -1,0 +1,44 @@
+.portfolioParent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content {
+  display: flex;
+  height: 35vh;
+  padding: 10px 35px 10px 35px;
+  gap: 15px;
+}
+.left {
+  display: flex;
+  flex: 0.5;
+  /* border: 1px solid black; */
+  align-items: end;
+  justify-content: end;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  /* border: 1px solid black; */
+  align-items: center;
+}
+.back {
+  margin: 15px;
+  /* border: 1px solid black; */
+  height: 90%;
+  width: 70%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 25%;
+  /* background: rgba(255, 255, 255, 0.2); */
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(211, 75, 75, 0.485);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.title {
+  font-size: 2vw;
+}
+.description {
+  font-size: 1.5vw;
+}

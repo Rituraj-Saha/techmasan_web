@@ -8,7 +8,7 @@ const ShinyBtn = (props) => {
         // width: "30%",
         // marginInline: "auto",
         textAlign: "center",
-        padding: "10px",
+        padding: "10px 25px 10px 25px",
         borderRadius: "50px",
       }}
       className={styles.shiny}

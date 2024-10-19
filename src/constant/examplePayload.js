@@ -1,3 +1,5 @@
+import { text } from "framer-motion/client";
+
 export const heroSection = {
   heroSectionMsg: {
     brandText: "TechMasan",
@@ -3698,3 +3700,45 @@ export const serviceSection = {
     },
   ],
 };
+
+export const portfolio = [
+  {
+    title: "Sample title",
+    description: "Sample Description",
+    sample: "img",
+  },
+  {
+    title: "Sample title",
+    description: "Sample Description",
+    sample: "img",
+  },
+  {
+    title: "Sample title",
+    description: "Sample Description",
+    sample: "img",
+  },
+  {
+    title: "Sample title",
+    description: "Sample Description",
+    sample: "img",
+  },
+];
+
+export const oursteps = [
+  {
+    avtarSvg: "",
+    description: "Description",
+  },
+  {
+    avtarSvg: "",
+    description: "Description",
+  },
+  {
+    avtarSvg: "",
+    description: "Description",
+  },
+  {
+    avtarSvg: "",
+    description: "Description",
+  },
+];

@@ -6,12 +6,12 @@
   overflow-x: hidden;
   --buttonBack: #f17070;
   /* background: rgb(248, 243, 224); */
-  /* background: linear-gradient(
+  background: linear-gradient(
     257deg,
-    rgba(248, 243, 224, 0.353) 7%,
-    rgba(239, 238, 214, 0.756827731092437) 52%,
-    rgba(249, 250, 209, 0.318) 87%
-  ); */
+    rgba(250, 159, 212, 0.353) 7%,
+    rgba(235, 195, 248, 0.757) 52%,
+    rgba(250, 149, 106, 0.318) 87%
+  );
 }
 .App {
   /* text-align: center; */
