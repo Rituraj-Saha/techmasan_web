@@ -1,0 +1,10 @@
+.serviceheader {
+  display: flex;
+  font-size: 2.8vw;
+  font-weight: 600;
+  align-items: start;
+  justify-content: start;
+  /* border: 1px solid black; */
+  color: rgb(87, 84, 84);
+  padding-left: 50px;
+}

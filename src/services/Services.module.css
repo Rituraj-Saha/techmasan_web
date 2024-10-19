@@ -1,0 +1,33 @@
+.serviceParent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.serviceContainer {
+  display: flex;
+  flex: 1;
+  /* border: 1px solid black; */
+  padding-top: 25px;
+}
+.engagementSection {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  padding-top: 16vh;
+}
+
+.left {
+  flex: 0.5;
+  /* border: 1px solid black; */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  align-items: end;
+  justify-content: end;
+  /* border: 1px solid black; */
+}
