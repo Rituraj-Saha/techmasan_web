@@ -16,11 +16,36 @@
     rgba(243, 62, 62, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(245, 7, 7, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   color: white;
-  font-size: 1.5vw;
-  font-weight: 400;
 }
 
 .floatingButtonIcon {
 }
 .floatingButtonText {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .floatingChipParent {
+    display: flex;
+    width: 70vw;
+    /* border: 1px solid black; */
+    padding: 25px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgba(245, 115, 9, 1) 0%,
+      rgba(255, 12, 45, 1) 35%,
+      rgba(237, 125, 189, 1) 100%
+    );
+    box-shadow: rgba(255, 0, 225, 0.25) 0px 54px 55px,
+      rgba(243, 62, 62, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(245, 7, 7, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+  }
+  .floatingButtonText {
+    font-size: 5vw;
+    font-weight: 400;
+  }
 }

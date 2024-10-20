@@ -3,42 +3,82 @@
   flex-direction: column;
   gap: 5px;
 }
+.portFoliogrid {
+  display: flex;
+  gap: 20px;
+
+  margin: 20px;
+}
 .content {
   display: flex;
-  height: 35vh;
-  padding: 10px 35px 10px 35px;
   gap: 15px;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  /* background: rgb(247, 238, 249);
+  background: linear-gradient(
+    75deg,
+    rgba(247, 238, 249, 1) 8%,
+    rgba(251, 247, 243, 1) 46%,
+    rgba(251, 243, 242, 1) 87%
+  ); */
 }
 .left {
   display: flex;
-  flex: 0.5;
+  flex: 0.7;
   /* border: 1px solid black; */
-  align-items: end;
-  justify-content: end;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.onlyLeft {
+  display: flex;
+  flex: 1;
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
 }
 .right {
   display: flex;
   flex-direction: column;
-  flex: 0.5;
+  flex: 0.3;
   /* border: 1px solid black; */
   align-items: center;
 }
 .back {
+  display: flex;
   margin: 15px;
   /* border: 1px solid black; */
-  height: 90%;
-  width: 70%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 25%;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 15%;
   /* background: rgba(255, 255, 255, 0.2); */
   /* border-radius: 16px; */
-  box-shadow: 0 4px 30px rgba(211, 75, 75, 0.485);
+  /* box-shadow: 0 4px 30px rgba(211, 75, 75, 0.485);
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
+}
+.bannerImage {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 15%;
 }
 .title {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .description {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+}
+@media (max-width: 768px) {
+  .portFoliogrid {
+    display: flex;
+    gap: 5px;
+
+    margin: 20px;
+    flex-direction: column;
+  }
 }

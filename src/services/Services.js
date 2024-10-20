@@ -5,13 +5,16 @@ import styles from "./Services.module.css";
 import FloatingChip from "../Components/floatingChip/FloatingChip";
 import ShinyBtn from "../Components/shinyBtn/ShinyBtn";
 import HeaderLine from "../Components/headerLine/HeaderLine";
-
+import useIsMobile from "../util/useIsMobile";
+import { tr } from "framer-motion/client";
 function Services() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: serviceSection.serviceJson,
   };
+  const isMobile = useIsMobile();
+
   return (
     <div className={styles.serviceParent}>
       <HeaderLine msg={"Services"} />
@@ -26,7 +29,12 @@ function Services() {
               <div
                 key={index}
                 style={{
-                  marginRight: index % 2 != 0 ? "25%" : "5%",
+                  marginRight: !isMobile
+                    ? index % 2 != 0
+                      ? "25%"
+                      : "5%"
+                    : "0",
+                  // index % 2 != 0 ? "25%" : "5%",
                   marginTop: "20px",
                 }}
               >
