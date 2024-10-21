@@ -1,0 +1,47 @@
+.parent {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  background-color: transparent;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  z-index: 9;
+}
+.content {
+  display: flex;
+  width: 90%;
+  height: 70%;
+  border: 1px solid black;
+  background: rgba(51, 11, 1, 0.63);
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(124, 54, 36, 0.3);
+}
+.linkContainer {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 55%;
+  color: white;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.linkContainer span {
+  background-color: rgba(193, 183, 171, 0.499);
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  font-size: 0.8vw;
+}
+.contactInfo {
+  display: flex;
+  /* border: 1px solid black; */
+  /* width: 20%; */
+  align-items: center;
+  gap: 5px;
+  /* justify-content: center; */
+}
