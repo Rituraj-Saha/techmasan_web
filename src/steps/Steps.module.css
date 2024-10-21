@@ -5,3 +5,12 @@
   padding-bottom: 50px;
   margin-top: 25px;
 }
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}

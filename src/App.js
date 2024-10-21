@@ -5,6 +5,7 @@ import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
 import Steps from "./steps/Steps";
 import NavigationBar from "./navigationBar/NavigationBar";
+import Contact from "./contact/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Portfolio />
       <Steps />
+      <Contact />
     </div>
   );
 }

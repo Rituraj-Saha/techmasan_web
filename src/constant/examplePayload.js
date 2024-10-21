@@ -3742,8 +3742,9 @@ export const oursteps = [
 </g>
 
 </svg>`,
-    description: "Description",
-    title: "Sample Title",
+    description:
+      "Start by filling out our easy-to-use contact form. Provide basic details about your project and how we can reach you. This helps us understand your initial needs and get in touch with you for the next steps.",
+    title: "Fill Out the Contact Form",
   },
   {
     avtarSvg: `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -3758,8 +3759,9 @@ export const oursteps = [
 <g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M356,360h-72v-3.696c15.904-3.592,30.856-9.784,44.608-18.448l13.896,13.904l45.256-45.256l-13.904-13.896 c8.664-13.752,14.848-28.704,18.448-44.608H412v-48h32v-16h-16c0-83.168-58.352-154.712-139.288-171.904 C284.56,4.904,276.88,0,268,0h-32c-8.88,0-16.56,4.904-20.712,12.096C134.352,29.288,76,100.832,76,184H60v16h32v48h19.696 c3.592,15.904,9.784,30.856,18.448,44.608l-13.904,13.896l45.256,45.256l13.896-13.904c13.752,8.664,28.704,14.848,44.608,18.448 V360h-72c-1.504,0-2.968,0.184-4.464,0.224l-44.984-44.992C99.512,311.44,100,307.672,100,304 c0-31.744-31.192-56.88-64.208-45.032l-11.856,4.272L48.688,288L36,300.688l-24.76-24.76l-4.272,11.856 C5,293.272,4,298.728,4,304c0,26.472,21.528,48,48,48c3.672,0,7.44-0.488,11.232-1.448l23.384,23.376 C37.872,397.032,4,446.576,4,504h16c0-36.168,15.144-68.816,39.352-92.12C80.384,437.904,92,470.504,92,504h16 c0-5.36-0.336-10.696-0.864-16H244v16h16v-16h136.864c-0.528,5.304-0.864,10.64-0.864,16h16c0-33.496,11.616-66.096,32.648-92.12 C468.856,435.184,484,467.832,484,504h16C500,424.6,435.4,360,356,360z M92,184c0-73.312,49.888-136.696,120-154.728V120h16V24 c0-4.416,3.584-8,8-8h32c4.416,0,8,3.584,8,8v96h16V29.272C362.112,47.304,412,110.688,412,184h-13.768l-8,24H113.768l-8-24H92z M323.528,224C319.536,259.944,289,288,252,288s-67.536-28.056-71.528-64H323.528z M178.928,321.016l-5.496-3.832l-11.944,11.952 l-22.632-22.632l11.952-11.944l-3.832-5.496c-10.576-15.184-17.6-32.168-20.864-50.48L124.944,232H108v-8h56.408 c4.056,44.784,41.768,80,87.592,80c45.824,0,83.536-35.216,87.592-80H396v8h-16.944l-1.168,6.592 c-3.264,18.304-10.288,35.288-20.864,50.48l-3.832,5.496l11.952,11.944l-22.632,22.632l-11.944-11.952l-5.496,3.832 c-15.184,10.576-32.168,17.6-50.48,20.864L268,343.056V360h-32v-16.944l-6.592-1.176 C211.104,338.616,194.12,331.592,178.928,321.016z M67.568,332.256l-4.784,1.712C59,335.336,55.472,336,52,336 c-16.464,0-30.064-12.496-31.816-28.496L36,323.312L71.312,288l-15.808-15.816C71.504,273.936,84,287.536,84,304 c0,3.472-0.664,7-2.032,10.792l-1.712,4.784l42.752,42.752c-6.944,1.224-13.72,2.904-20.288,5.088L67.568,332.256z M244,472 H104.688c-5.168-25.68-16.448-49.92-33.096-70.448C92.944,385.584,119.344,376,148,376h28l68,90.672V472z M252,450.664L196,376 h24h64h24L252,450.664z M399.312,472H260v-5.328L328,376h28c28.656,0,55.056,9.584,76.408,25.552 C415.76,422.08,404.488,446.32,399.312,472z"/> <rect x="124" y="168" width="256" height="16"/> </g> </g> </g> </g>
 
 </svg>`,
-    description: "Description",
-    title: "Sample Title",
+    description:
+      "After submitting the form, our team will schedule a consultation with you. We'll discuss your business goals, project requirements, and expectations in detail. This is where we gather insights to tailor the best solutions for you.",
+    title: "Business Consultation",
   },
   {
     avtarSvg: `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -3780,13 +3782,33 @@ export const oursteps = [
 </g>
 
 </svg>`,
-    description: "Description",
-    title: "Sample Title",
+    description:
+      " Based on our discussions, we’ll create a detailed Functional Requirements Document (FRD). This document outlines all the technical and functional specifications of your project, ensuring clarity and alignment before development starts.",
+    title: "Create a Functional Requirements Document (FRD)",
   },
   {
     avtarSvg: `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --><svg fill="#ffffff" height="800px" width="800px" version="1.2" baseProfile="tiny" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-191 65 256 256" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <polygon points="-14.5,238.2 -18.9,234.3 -39.1,257.2 -34.8,261.1 "/> <path d="M-187.2,67.2V318H61.3V67.2H-187.2z M-127.2,225.4h3.9v77.2h-3.9V225.4z M-70.8,189.4h-8.3v35.2h8.3v78.1h-33V174.1h3.9 v53.7c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-57.6c-0.3-10.8-9.2-19.4-19.7-19.4h-38.9c-10.8,0-19.4,8.7-19.4,19.4v57.5 c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-53.7h3.9v128.5h-20.9V84.7h96.8V189.4z M42.2,302.6h-97.1v-78.1h8.3v-35.2h-8.3V84.7 h97.1V302.6z"/> <polygon points="-38.6,288 -34.3,291.9 16.5,234.2 12.1,230.3 "/> <polygon points="-5.5,123.9 -9.8,119.9 -30.1,142.8 -25.7,146.8 "/> <polygon points="-25.2,177.6 25.5,119.8 21.2,115.9 -29.6,173.7 "/> <path d="M-125.6,146.8c8.6,0,15.6-7,15.6-15.6s-7-15.6-15.6-15.6c-8.6,0-15.6,7-15.6,15.6S-134.1,146.8-125.6,146.8z"/> </g> </g></svg>`,
-    description: "Description",
-    title: "Sample Title",
+    description:
+      " Once the FRD is approved, our team will move to the design and development phase. We’ll build your custom application using the latest technologies and best practices to ensure scalability, performance, and security.",
+    title: "Design and Development",
+  },
+  {
+    avtarSvg: `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --><svg fill="#ffffff" height="800px" width="800px" version="1.2" baseProfile="tiny" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-191 65 256 256" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <polygon points="-14.5,238.2 -18.9,234.3 -39.1,257.2 -34.8,261.1 "/> <path d="M-187.2,67.2V318H61.3V67.2H-187.2z M-127.2,225.4h3.9v77.2h-3.9V225.4z M-70.8,189.4h-8.3v35.2h8.3v78.1h-33V174.1h3.9 v53.7c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-57.6c-0.3-10.8-9.2-19.4-19.7-19.4h-38.9c-10.8,0-19.4,8.7-19.4,19.4v57.5 c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-53.7h3.9v128.5h-20.9V84.7h96.8V189.4z M42.2,302.6h-97.1v-78.1h8.3v-35.2h-8.3V84.7 h97.1V302.6z"/> <polygon points="-38.6,288 -34.3,291.9 16.5,234.2 12.1,230.3 "/> <polygon points="-5.5,123.9 -9.8,119.9 -30.1,142.8 -25.7,146.8 "/> <polygon points="-25.2,177.6 25.5,119.8 21.2,115.9 -29.6,173.7 "/> <path d="M-125.6,146.8c8.6,0,15.6-7,15.6-15.6s-7-15.6-15.6-15.6c-8.6,0-15.6,7-15.6,15.6S-134.1,146.8-125.6,146.8z"/> </g> </g></svg>`,
+    description:
+      " Before deployment, we rigorously test the application to identify and fix any issues. You will also have the opportunity to review and provide feedback, ensuring the product meets your expectations.",
+    title: "Testing and Feedback",
+  },
+  {
+    avtarSvg: `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --><svg fill="#ffffff" height="800px" width="800px" version="1.2" baseProfile="tiny" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-191 65 256 256" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <polygon points="-14.5,238.2 -18.9,234.3 -39.1,257.2 -34.8,261.1 "/> <path d="M-187.2,67.2V318H61.3V67.2H-187.2z M-127.2,225.4h3.9v77.2h-3.9V225.4z M-70.8,189.4h-8.3v35.2h8.3v78.1h-33V174.1h3.9 v53.7c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-57.6c-0.3-10.8-9.2-19.4-19.7-19.4h-38.9c-10.8,0-19.4,8.7-19.4,19.4v57.5 c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-53.7h3.9v128.5h-20.9V84.7h96.8V189.4z M42.2,302.6h-97.1v-78.1h8.3v-35.2h-8.3V84.7 h97.1V302.6z"/> <polygon points="-38.6,288 -34.3,291.9 16.5,234.2 12.1,230.3 "/> <polygon points="-5.5,123.9 -9.8,119.9 -30.1,142.8 -25.7,146.8 "/> <polygon points="-25.2,177.6 25.5,119.8 21.2,115.9 -29.6,173.7 "/> <path d="M-125.6,146.8c8.6,0,15.6-7,15.6-15.6s-7-15.6-15.6-15.6c-8.6,0-15.6,7-15.6,15.6S-134.1,146.8-125.6,146.8z"/> </g> </g></svg>`,
+    description:
+      "After testing and any final revisions, we’ll deploy your application to the production environment. We handle the entire process, ensuring a smooth and hassle-free launch.",
+    title: " Deployment and Launch",
+  },
+  {
+    avtarSvg: `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --><svg fill="#ffffff" height="800px" width="800px" version="1.2" baseProfile="tiny" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-191 65 256 256" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <polygon points="-14.5,238.2 -18.9,234.3 -39.1,257.2 -34.8,261.1 "/> <path d="M-187.2,67.2V318H61.3V67.2H-187.2z M-127.2,225.4h3.9v77.2h-3.9V225.4z M-70.8,189.4h-8.3v35.2h8.3v78.1h-33V174.1h3.9 v53.7c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-57.6c-0.3-10.8-9.2-19.4-19.7-19.4h-38.9c-10.8,0-19.4,8.7-19.4,19.4v57.5 c0,3.7,3,6.8,6.8,6.8c3.9,0,6.8-3,6.8-6.8v-53.7h3.9v128.5h-20.9V84.7h96.8V189.4z M42.2,302.6h-97.1v-78.1h8.3v-35.2h-8.3V84.7 h97.1V302.6z"/> <polygon points="-38.6,288 -34.3,291.9 16.5,234.2 12.1,230.3 "/> <polygon points="-5.5,123.9 -9.8,119.9 -30.1,142.8 -25.7,146.8 "/> <polygon points="-25.2,177.6 25.5,119.8 21.2,115.9 -29.6,173.7 "/> <path d="M-125.6,146.8c8.6,0,15.6-7,15.6-15.6s-7-15.6-15.6-15.6c-8.6,0-15.6,7-15.6,15.6S-134.1,146.8-125.6,146.8z"/> </g> </g></svg>`,
+    description:
+      "Post-launch, our team provides ongoing support and maintenance. We monitor the performance, implement updates, and are available for any future enhancements you may need.",
+    title: " Ongoing Support and Maintenance",
   },
 ];
 
