@@ -3,15 +3,15 @@ import swal from "sweetalert";
 export default function useSendMail(fromName, handleLoading, message, usedFor) {
   emailjs
     .send(
-      "service_yzia22i",
-      "template_0z4gz8c",
+      "service_0aapyaj",
+      "template_026l9h3",
       {
         from_name: fromName,
         to_name: "Team",
         message: message,
       },
       {
-        publicKey: "nzOI_drXwe_GSriUw",
+        publicKey: "YcW4kCUtiGl5rv89i",
       }
     )
     .then(

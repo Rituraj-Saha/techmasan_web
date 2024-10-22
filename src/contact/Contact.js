@@ -11,10 +11,12 @@ const Contact = () => {
           display: "flex",
           marginTop: "20px",
           // -webkit-backdrop-filter: blur(5px),
-          background: "rgb(183,9,71)",
+          // background: "rgb(183,9,71)",
           background:
             "linear-gradient(75deg, rgba(183,9,71,1) 8%, rgba(232,75,14,1) 49%, rgba(210,18,1,1) 87%)",
-          padding: "35px",
+          padding: "5%",
+          paddingTop: "10%",
+          borderTopRightRadius: "50%",
         }}
       >
         <div
@@ -22,6 +24,7 @@ const Contact = () => {
             display: "flex",
             width: "30%",
             // border: "1px solid black",
+            // background:"linear-gradient(75deg, rgba(183,9,71,1) 8%, rgba(232,75,14,1) 49%, rgba(210,18,1,1) 87%)",
             marginLeft: "60px",
             boxShadow: "0 4px 30px rgba(0, 0, 0, 0.3)",
             backdropFilter: "blur(5px)",
@@ -31,7 +34,7 @@ const Contact = () => {
         >
           <ContactForm />
         </div>
-        <div></div>
+        <div style={{ flex: ".5" }}></div>
       </div>
     </div>
   );

@@ -1,7 +1,16 @@
 import React from "react";
 import styles from "./ShinyBtn.module.css";
+import { useDispatch } from "react-redux";
+import { open } from "../../features/contactAlertBox/ContactAlertSlice";
+
 const ShinyBtn = (props) => {
   const { btnText } = props;
+  const dispatch = useDispatch();
+  const handleClick = () => {
+    dispatch(open());
+    return;
+  };
+
   return (
     <span
       style={{
@@ -12,6 +21,7 @@ const ShinyBtn = (props) => {
         borderRadius: "50px",
       }}
       className={styles.shiny}
+      onClick={handleClick}
     >
       {btnText}
       <i></i>

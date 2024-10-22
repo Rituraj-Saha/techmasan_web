@@ -6,7 +6,8 @@ import Portfolio from "./portfolio/Portfolio";
 import Steps from "./steps/Steps";
 import NavigationBar from "./navigationBar/NavigationBar";
 import Contact from "./contact/Contact";
-
+import AlertBox from "./Components/AlertBox/AlertBox";
+import ContactForm from "./contact/ContactForm";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,9 @@ function App() {
       <Portfolio />
       <Steps />
       <Contact />
+      <AlertBox>
+        <ContactForm />
+      </AlertBox>
     </div>
   );
 }
