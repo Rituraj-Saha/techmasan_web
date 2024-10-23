@@ -15,7 +15,17 @@ const NavigationBar = () => {
   return (
     <div className={styles.parent}>
       <div className={styles.content}>
-        <img src={LOGO} style={{ scale: ".9" }}></img>
+        <div className={styles.logoContainer}>
+          <img
+            src={LOGO}
+            style={{
+              scale: useIsMobile() ? ".6" : "1",
+              height: "100%",
+              width: useIsMobile() ? "100%" : "70%",
+              // border: "1px solid black",
+            }}
+          ></img>
+        </div>
         <div className={styles.linkContainer}>
           {!useIsMobile() && (
             <>
@@ -42,20 +52,11 @@ const NavigationBar = () => {
                 width: "20px",
               }}
             ></SVG>
-            Get Us On Wapp
+            {useIsMobile() ? "" : "Get Us On Wapp"}
           </span>
         </div>
         <div className={styles.contactInfo}>
-          <span
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "5px",
-              color: "white",
-              fontSize: "0.8vw",
-            }}
-          >
+          <span className={styles.contactSpan}>
             <SVG
               src={phoneSvg}
               style={{
@@ -65,16 +66,7 @@ const NavigationBar = () => {
             ></SVG>
             {phoneNumber}
           </span>
-          <span
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "5px",
-              color: "white",
-              fontSize: "0.8vw",
-            }}
-          >
+          <span className={styles.contactSpan}>
             <SVG
               src={mailSvg}
               style={{

@@ -20,7 +20,7 @@ function Services() {
       <HeaderLine msg={"Services"} />
       <div className={styles.serviceContainer}>
         <div className={styles.left}>
-          <Lottie options={defaultOptions} height={400} width={400} />
+          <Lottie options={defaultOptions} height={400} width={300} />
         </div>
         <div className={styles.right}>
           {/* <FloatingChip msg={"sample msg"} /> */}

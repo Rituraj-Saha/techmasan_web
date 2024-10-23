@@ -86,4 +86,14 @@
     font-size: 1em;
     display: block;
   }
+  .brandText {
+    font-size: 10vw;
+    font-weight: 600;
+    color: white;
+    margin-top: 20%;
+  }
+  .subTitle {
+    font-size: 3vw;
+    color: white;
+  }
 }

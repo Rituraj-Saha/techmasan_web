@@ -25,11 +25,19 @@
 .linkContainer {
   display: flex;
   /* border: 1px solid black; */
-  width: 55%;
+  /* width: 65%; */
   color: white;
   gap: 10px;
   align-items: center;
   justify-content: center;
+}
+.logoContainer {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* border: 1px solid black; */
 }
 .linkContainer span {
   background-color: rgba(193, 183, 171, 0.499);
@@ -43,5 +51,43 @@
   /* width: 20%; */
   align-items: center;
   gap: 5px;
+  margin-left: 5px;
   /* justify-content: center; */
+}
+.contactSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  font-size: 0.8vw;
+}
+@media (max-width: 768px) {
+  .linkContainer {
+    display: flex;
+    /* border: 1px solid black; */
+    /* width: 65%; */
+    color: white;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoContainer {
+    display: flex;
+    width: 30%;
+    height: 100%;
+  }
+  .linkContainer span {
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-size: 3vw;
+  }
+  .contactSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    color: white;
+    font-size: 2vw;
+  }
 }
