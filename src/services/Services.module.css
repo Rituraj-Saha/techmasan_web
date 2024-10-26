@@ -1,0 +1,58 @@
+.serviceParent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+.serviceContainer {
+  display: flex;
+  flex: 1;
+  /* border: 1px solid black; */
+  padding-top: 25px;
+}
+.engagementSection {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  padding-top: 16vh;
+}
+
+.left {
+  flex: 0.5;
+  /* border: 1px solid black; */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  align-items: end;
+  justify-content: end;
+  /* border: 1px solid black; */
+}
+@media (max-width: 768px) {
+  .serviceContainer {
+    display: flex;
+    flex: 1;
+    /* border: 1px solid black; */
+    padding-top: 25px;
+    flex-direction: column;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .engagementSection {
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-left: 50vw;
+  }
+}
