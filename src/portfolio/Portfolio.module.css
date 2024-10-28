@@ -1,7 +1,9 @@
 .portfolioParent {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
+  /* border: 1px solid black; */
+  padding-top: 25px;
 }
 .portFoliogrid {
   display: flex;
@@ -81,8 +83,14 @@
   .portFoliogrid {
     display: flex;
     gap: 5px;
-
     margin: 20px;
     flex-direction: column;
+  }
+  .bannerImage {
+    height: 30vh;
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 15%;
   }
 }

@@ -8,7 +8,8 @@
 
 .shiny {
   /*  styling */
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #fafafa;
@@ -16,8 +17,8 @@
   /*  centering */
   /* position: absolute; */
   text-align: center;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+  transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);

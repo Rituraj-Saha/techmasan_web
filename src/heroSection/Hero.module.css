@@ -55,6 +55,8 @@
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  /* border: 1px solid black; */
+  width: 100%;
 }
 
 /* Right container for animation */
@@ -93,7 +95,17 @@
     margin-top: 20%;
   }
   .subTitle {
-    font-size: 3vw;
+    font-size: 4vw;
     color: white;
+  }
+  .leftContainer {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    text-align: left;
+    padding-top: 25%;
   }
 }
