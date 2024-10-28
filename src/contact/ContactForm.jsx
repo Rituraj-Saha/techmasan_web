@@ -6,6 +6,7 @@ import useSendMail from "../util/useSendMail";
 import { useRef, useState, useEffect } from "react";
 import swal from "sweetalert";
 import { ThreeCircles } from "react-loader-spinner";
+import styles from "./ContactForm.module.css";
 const ContactForm = (props) => {
   const nameRef = useRef("");
   const emailRef = useRef("");

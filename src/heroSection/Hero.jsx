@@ -4,7 +4,7 @@ import { heroSection } from "../constant/examplePayload";
 import { TypeAnimation } from "react-type-animation";
 import ShinyBtn from "../Components/shinyBtn/ShinyBtn";
 import Lottie from "react-lottie";
-
+import logo from "../res/Logo/Logo-white-text-removebg-preview.png";
 const Hero = () => {
   const defaultOptions = {
     loop: true,
@@ -17,21 +17,20 @@ const Hero = () => {
       <div className={styles.backgroundGradient}></div>
 
       <div className={styles.leftContainer}>
-        <span className={styles.brandText}>
+        <img src={logo} style={{ height: "80px", width: "80%" }} />
+        {/* <span className={styles.brandText}>
           {heroSection.heroSectionMsg.brandText}
-        </span>
-        <span className={styles.title}>{heroSection.heroSectionMsg.title}</span>
+        </span> */}
+        {/* <span className={styles.title}>{heroSection.heroSectionMsg.title}</span> */}
 
         <div className={styles.animationText}>
           <TypeAnimation
             sequence={[
-              "We produce food for Mice",
+              "We deliver tech support to business",
               1000,
-              "We produce food for Hamsters",
+              "We deliver attractive-animated landing page",
               1000,
-              "We produce food for Guinea Pigs",
-              1000,
-              "We produce food for Chinchillas",
+              "We deliver portfolio website for professional",
               1000,
             ]}
             speed={50}
