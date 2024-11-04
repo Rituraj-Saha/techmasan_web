@@ -8996,6 +8996,11 @@ react-type-animation@^3.2.0:
   resolved "https://registry.yarnpkg.com/react-type-animation/-/react-type-animation-3.2.0.tgz#6863d5d60e3beb237f2bd690cceb585402c47e6a"
   integrity sha512-WXTe0i3rRNKjmggPvT5ntye1QBt0ATGbijeW6V3cQe2W0jaMABXXlPPEdtofnS9tM7wSRHchEvI9SUw+0kUohw==
 
+react-whatsapp@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/react-whatsapp/-/react-whatsapp-0.3.0.tgz#1d8909939112b90411a70189be2677bdb6d53ac6"
+  integrity sha512-ZuCKhd30crVVNdLf/3BfDffqEOZLFW6mYRITA4fB6Vk5p3TU1Gl3YfTEfLE/7W+kTuwYPzF6aDnzbNt6GcatiQ==
+
 react@^18.3.1:
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react/-/react-18.3.1.tgz#49ab892009c53933625bd16b2533fc754cab2891"

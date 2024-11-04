@@ -8,10 +8,13 @@ import NavigationBar from "./navigationBar/NavigationBar";
 import Contact from "./contact/Contact";
 import AlertBox from "./Components/AlertBox/AlertBox";
 import ContactForm from "./contact/ContactForm";
+import MobileNav from "./navigationBar/MobileNav";
+import useIsMobile from "./util/useIsMobile";
 function App() {
   return (
     <div className="App">
       <NavigationBar />
+      {useIsMobile() && <MobileNav />}
       <Hero />
       <Services />
       <Portfolio />

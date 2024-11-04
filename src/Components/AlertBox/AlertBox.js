@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import CloseIcon from "@mui/icons-material/Close";
 import styles from "./AlertBos.module.css";
 import { close } from "../../features/contactAlertBox/ContactAlertSlice";
+import useIsMobile from "../../util/useIsMobile";
 const AlertBox = (props) => {
   const { children } = props;
   const status = useSelector((state) => state.contactAlertControll.status);
@@ -21,36 +22,30 @@ const AlertBox = (props) => {
           outline: 0,
         }}
       >
-        <div
-          style={{
-            padding: "1%",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            border: "0px solid transparent",
-            outline: "0",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              padding: "50px",
-              width: "50%",
-              background:
-                "linear-gradient(75deg, rgba(183,9,71,1) 8%, rgba(232,75,14,1) 49%, rgba(210,18,1,1) 87%)",
-              boxShadow: "0 4px 30px rgba(0, 0, 0, 0.3)",
-            }}
-          >
+        <div className={styles.parent}>
+          <div className={styles.content}>
             <CloseIcon
-              sx={{
-                position: "absolute",
-                right: "25%",
-                top: "4%",
-                color: "white",
-                background: "pink",
-                borderRadius: "100%",
-                padding: "2px",
-              }}
+              sx={
+                useIsMobile()
+                  ? {
+                      position: "absolute",
+                      right: "5%",
+                      top: "12%",
+                      color: "white",
+                      background: "pink",
+                      borderRadius: "100%",
+                      padding: "2px",
+                    }
+                  : {
+                      position: "absolute",
+                      right: "22%",
+                      top: "12%",
+                      color: "white",
+                      background: "pink",
+                      borderRadius: "100%",
+                      padding: "2px",
+                    }
+              }
               onClick={handleClose}
             ></CloseIcon>
             {children}

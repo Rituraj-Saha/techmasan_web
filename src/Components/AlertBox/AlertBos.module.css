@@ -1,0 +1,35 @@
+.parent {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid transparent;
+  outline: 0;
+  margin-top: 80px;
+}
+.content {
+  display: flex;
+  padding: 50px;
+  width: 50%;
+  background: linear-gradient(
+    75deg,
+    rgba(183, 9, 71, 1) 8%,
+    rgba(232, 75, 14, 1) 49%,
+    rgba(210, 18, 1, 1) 87%
+  );
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    padding: 50px;
+    width: 70%;
+    background: linear-gradient(
+      75deg,
+      rgba(183, 9, 71, 1) 8%,
+      rgba(232, 75, 14, 1) 49%,
+      rgba(210, 18, 1, 1) 87%
+    );
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  }
+}

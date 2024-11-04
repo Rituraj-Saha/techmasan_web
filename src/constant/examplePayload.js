@@ -1,3 +1,4 @@
+import { Message } from "@mui/icons-material";
 import bannerOne from "../res/banner/first.png";
 import bannerTwo from "../res/banner/second.png";
 import bannerThree from "../res/banner/third.png";
@@ -3859,3 +3860,26 @@ export const mailSvg = `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://w
 export const phoneNumber = `+91 9674345373`;
 
 export const email = `contact@techmasan.co.in`;
+
+export const bottomNavForMobile = [
+  {
+    icon: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ceccf5" stroke="#ceccf5" stroke-width="1.32"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 11h-2v-1h2zM2 11h2v-1H2zm17.646-4.94l1.415-1.414-.707-.707-1.415 1.415zM3.94 4.647l1.415 1.415.707-.707L4.647 3.94zM13 4V2h-1v2zm0 15v2h9v1H3v-1h9v-2H3.844A.845.845 0 0 1 3 18.156 8.166 8.166 0 0 1 11.156 10H12V9h-2V8h5v1h-2v1h.844A8.166 8.166 0 0 1 22 18.156a.845.845 0 0 1-.844.844zm7.998-1a7.164 7.164 0 0 0-7.154-7h-2.688a7.164 7.164 0 0 0-7.154 7z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>`,
+    title: "Services",
+  },
+  {
+    icon: `<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z" fill="#ceccf5"></path> </g></svg>`,
+    title: "Home",
+  },
+  {
+    icon: `<svg fill="#ceccf5" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" stroke="#ceccf5"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M457.697,324.848l-23.273,4.231l-93.091,16.924v26.36c0,12.853-10.418,23.273-23.273,23.273H193.939 c-12.851,0-23.273-10.42-23.273-23.273v-26.36l-93.091-16.924l-23.273-4.233l-23.273-4.233V480.97 c0,12.853,10.422,23.273,23.273,23.273h403.394c12.854,0,23.273-10.42,23.273-23.273V320.616L457.697,324.848z"></path> </g> </g> <g> <g> <path d="M488.727,100.848H372.364V77.576V54.303V31.03c0-12.853-10.418-23.273-23.273-23.273H162.909 c-12.851,0-23.273,10.42-23.273,23.273v23.273v23.273v23.273H23.273C10.422,100.848,0,111.27,0,124.121v124.121 c0,11.247,8.046,20.885,19.11,22.897l33.548,6.101l11.371,2.067l106.637,19.389v-19.423c0-12.853,10.422-23.273,23.273-23.273 h124.123c12.854,0,23.273,10.42,23.273,23.273v19.423l106.636-19.389l11.373-2.067l33.548-6.101 c11.067-2.012,19.108-11.65,19.108-22.897V124.121C512,111.27,501.583,100.848,488.727,100.848z M325.82,77.576v23.273H186.182 V77.576V54.303H325.82V77.576z"></path> </g> </g> </g></svg>`,
+    title: "Portfolio",
+  },
+  {
+    icon: `<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-contact-book" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Contact-book</title> <defs> </defs> <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g fill="#ceccf5"> <path d="M1.061,2.917 L2.083,2.917 L2.083,4.132 L1.061,4.132 L1.061,11.967 L2.049,11.967 L2.049,13.084 L1.061,13.084 L1.061,15.881 L12.958,15.881 L12.958,0 L1.061,0 L1.061,2.917 L1.061,2.917 Z M4.445,4.392 C4.475,4.368 4.716,4.188 4.802,4.123 L4.796,4.121 C4.804,4.118 4.808,4.117 4.813,4.114 C4.818,4.108 4.834,4.097 4.837,4.094 L4.841,4.099 C4.987,4.013 5.138,3.953 5.31,3.927 C5.772,3.859 6.109,4.339 6.328,4.614 C6.547,4.886 6.851,5.32 6.814,5.617 C6.792,5.796 6.587,5.961 6.393,6.123 L6.386,6.113 C6.333,6.17 6.099,6.409 6.079,6.441 C5.972,6.619 5.849,7.022 6.021,7.326 C6.184,7.621 6.506,8.099 6.811,8.498 C7.133,8.885 7.528,9.308 7.778,9.535 C8.04,9.772 8.471,9.755 8.673,9.697 C8.712,9.687 9.027,9.5 9.068,9.48 C9.277,9.336 9.488,9.184 9.675,9.207 C9.978,9.245 10.331,9.641 10.55,9.914 C10.769,10.188 11.163,10.626 10.983,11.046 C10.914,11.205 10.814,11.332 10.69,11.451 L10.694,11.455 L10.672,11.471 C10.668,11.475 10.666,11.479 10.666,11.479 L10.662,11.48 C10.58,11.542 10.338,11.727 10.308,11.749 C9.972,11.966 9.242,12.237 8.216,11.634 C7.455,11.185 6.62,10.423 5.823,9.471 L5.819,9.474 C5.782,9.427 5.747,9.38 5.712,9.333 C5.675,9.287 5.636,9.244 5.598,9.196 L5.602,9.193 C4.854,8.206 4.304,7.228 4.046,6.397 C3.699,5.277 4.148,4.656 4.445,4.392 L4.445,4.392 Z" class="si-glyph-fill"> </path> <rect x="0" y="3" width="0.979" height="0.992" class="si-glyph-fill"> </rect> <rect x="0" y="12" width="0.977" height="0.943" class="si-glyph-fill"> </rect> <rect x="14" y="2" width="0.916" height="2.875" class="si-glyph-fill"> </rect> <rect x="14" y="11" width="0.887" height="2.847" class="si-glyph-fill"> </rect> <rect x="14" y="6" width="0.901" height="3.895" class="si-glyph-fill"> </rect> </g> </g> </g></svg>`,
+    title: "Contact",
+  },
+];
+export const wappInfo = {
+  receiverPhone: "+919674345373",
+  Message: "Hi I am interested for techmasan service",
+};

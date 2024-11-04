@@ -39,6 +39,7 @@
     padding: 5%;
     padding-top: 10%;
     border-top-right-radius: 10%;
+    padding-bottom: 30%;
   }
   .contactFormContainer {
     display: flex;
