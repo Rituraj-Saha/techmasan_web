@@ -11,6 +11,7 @@ import {
   wappSvg,
 } from "../constant/examplePayload";
 import useIsMobile from "../util/useIsMobile";
+import { Link } from "react-scroll";
 const NavigationBar = () => {
   return (
     <div className={styles.parent}>
@@ -29,11 +30,21 @@ const NavigationBar = () => {
         <div className={styles.linkContainer}>
           {!useIsMobile() && (
             <>
-              <span>Home</span>
-              <span>Services</span>
-              <span>Portfolio</span>
-              <span>Onboarding</span>
-              <span>Contact Us</span>
+              <Link to="Home">
+                <span>Home</span>
+              </Link>
+              <Link to="Services">
+                <span>Services</span>
+              </Link>
+              <Link to="Portfolio">
+                <span>Portfolio</span>
+              </Link>
+              <Link to="Onboarding">
+                <span>Onboarding</span>
+              </Link>
+              <Link to="Contact">
+                <span>Contact Us</span>
+              </Link>
             </>
           )}
 

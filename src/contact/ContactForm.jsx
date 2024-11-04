@@ -18,10 +18,8 @@ const ContactForm = (props) => {
   if (usedFor == "priceCalculator") {
     messageVisibility = "none";
   }
-  console.log("msgv:" + messageVisibility);
   const [handleLoading, setHandleLoading] = useState(false);
   function validate() {
-    console.log("called validate");
     const isValidEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
 
     if (nameRef.current.value == "") {

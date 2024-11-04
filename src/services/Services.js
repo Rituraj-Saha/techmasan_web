@@ -7,6 +7,7 @@ import ShinyBtn from "../Components/shinyBtn/ShinyBtn";
 import HeaderLine from "../Components/headerLine/HeaderLine";
 import useIsMobile from "../util/useIsMobile";
 import { tr } from "framer-motion/client";
+import { Element } from "react-scroll";
 function Services() {
   const defaultOptions = {
     loop: true,
@@ -17,36 +18,38 @@ function Services() {
 
   return (
     <div className={styles.serviceParent}>
-      <HeaderLine msg={"Services"} />
-      <div className={styles.serviceContainer}>
-        <div className={styles.left}>
-          <Lottie options={defaultOptions} height={400} width={300} />
+      <Element name="Services">
+        <HeaderLine msg={"Services"} />
+        <div className={styles.serviceContainer}>
+          <div className={styles.left}>
+            <Lottie options={defaultOptions} height={400} width={300} />
+          </div>
+          <div className={styles.right}>
+            {/* <FloatingChip msg={"sample msg"} /> */}
+            {serviceSection.services.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  style={{
+                    marginRight: !isMobile
+                      ? index % 2 != 0
+                        ? "25%"
+                        : "5%"
+                      : "0",
+                    // index % 2 != 0 ? "25%" : "5%",
+                    marginTop: "20px",
+                  }}
+                >
+                  <FloatingChip msg={item.title} />
+                </div>
+              );
+            })}
+          </div>
         </div>
-        <div className={styles.right}>
-          {/* <FloatingChip msg={"sample msg"} /> */}
-          {serviceSection.services.map((item, index) => {
-            return (
-              <div
-                key={index}
-                style={{
-                  marginRight: !isMobile
-                    ? index % 2 != 0
-                      ? "25%"
-                      : "5%"
-                    : "0",
-                  // index % 2 != 0 ? "25%" : "5%",
-                  marginTop: "20px",
-                }}
-              >
-                <FloatingChip msg={item.title} />
-              </div>
-            );
-          })}
-        </div>
-      </div>
-      <span className={styles.engagementSection}>
-        <ShinyBtn btnText={"Get a quote"} />
-      </span>
+        <span className={styles.engagementSection}>
+          <ShinyBtn btnText={"Get a quote"} />
+        </span>
+      </Element>
     </div>
   );
 }

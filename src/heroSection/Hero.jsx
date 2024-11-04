@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import ShinyBtn from "../Components/shinyBtn/ShinyBtn";
 import Lottie from "react-lottie";
 import logo from "../res/Logo/Logo-white-text-removebg-preview.png";
+import { Element } from "react-scroll";
 const Hero = () => {
   const defaultOptions = {
     loop: true,
@@ -14,6 +15,7 @@ const Hero = () => {
 
   return (
     <div className={styles.heroContainer}>
+      <Element name="Home" />
       <div className={styles.backgroundGradient}></div>
 
       <div className={styles.leftContainer}>
