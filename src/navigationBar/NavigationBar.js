@@ -8,10 +8,12 @@ import {
   mailSvg,
   phoneNumber,
   phoneSvg,
+  wappInfo,
   wappSvg,
 } from "../constant/examplePayload";
 import useIsMobile from "../util/useIsMobile";
 import { Link } from "react-scroll";
+import ReactWhatsapp from "react-whatsapp";
 const NavigationBar = () => {
   return (
     <div className={styles.parent}>
@@ -30,25 +32,35 @@ const NavigationBar = () => {
         <div className={styles.linkContainer}>
           {!useIsMobile() && (
             <>
-              <Link to="Home">
+              <Link to="Home" smooth={true} offset={-70} duration={500}>
                 <span>Home</span>
               </Link>
-              <Link to="Services">
+              <Link to="Services" smooth={true} offset={-70} duration={500}>
                 <span>Services</span>
               </Link>
-              <Link to="Portfolio">
+              <Link to="Portfolio" smooth={true} offset={-70} duration={500}>
                 <span>Portfolio</span>
               </Link>
-              <Link to="Onboarding">
+              <Link to="Onboarding" smooth={true} offset={-70} duration={500}>
                 <span>Onboarding</span>
               </Link>
-              <Link to="Contact">
+              <Link to="Contact" smooth={true} offset={-70} duration={500}>
                 <span>Contact Us</span>
               </Link>
             </>
           )}
 
-          <span
+          {/* <span
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "5px",
+            }}
+          > */}
+          <ReactWhatsapp
+            number={wappInfo.receiverPhone}
+            message={wappInfo.Message}
             style={{
               display: "flex",
               alignItems: "center",
@@ -64,7 +76,8 @@ const NavigationBar = () => {
               }}
             ></SVG>
             {useIsMobile() ? "" : "Get Us On Wapp"}
-          </span>
+          </ReactWhatsapp>
+          {/* </span> */}
         </div>
         <div className={styles.contactInfo}>
           <span className={styles.contactSpan}>

@@ -33,7 +33,7 @@ function Steps() {
                         : "0%"
                       : !isMobile
                       ? "0%"
-                      : "5%",
+                      : "0%",
                   borderRadius: "25px",
                   boxShadow:
                     "rgba(255, 0, 225, 0.15) 0px 5px 5px,rgba(243, 62, 62, 0.12) 0px -5px 5px, rgba(0, 0, 0, 0.12) 0px 4px 6px,rgba(245, 7, 7, 0.17) 0px 5px 3px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
