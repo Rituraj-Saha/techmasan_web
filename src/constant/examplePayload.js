@@ -3857,7 +3857,7 @@ export const mailSvg = `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://w
 
 </svg>`;
 
-export const phoneNumber = `+91 9632372197`;
+export const phoneNumber = `+91 9432372197`;
 
 export const email = `contact@techmasan.co.in`;
 
