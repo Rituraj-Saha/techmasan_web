@@ -3857,7 +3857,7 @@ export const mailSvg = `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://w
 
 </svg>`;
 
-export const phoneNumber = `+91 9674345373`;
+export const phoneNumber = `+91 9632372197`;
 
 export const email = `contact@techmasan.co.in`;
 
@@ -3880,6 +3880,6 @@ export const bottomNavForMobile = [
   },
 ];
 export const wappInfo = {
-  receiverPhone: "+919674345373",
+  receiverPhone: "+919432372197",
   Message: "Hi I am interested for techmasan service",
 };
